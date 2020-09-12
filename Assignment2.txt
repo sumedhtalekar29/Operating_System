@@ -11,15 +11,15 @@ ANS:mkdir a1,a2,a3,a4,a5,a6,a7,a8,a9,a10
   Ans:
 -------------------------------------------------------------------------------------
  d) Concatenation of strings
-  Ans:obj1="Hello,"
-      obj2="World"
-      obj3="$obj1$obj2"
-      echo "$obj3"
+  Ans:f1="Hello,"
+      f2="World"
+      f3="$f1$f2"
+      echo "$f3"
 -----------------------------------------------------------------------------------
  e) Compare two strings
-   Ans:obj1="hello"
-      obj2="world"
-      if [ "$obj1" = "$obj2" ]; then
+   Ans:f1="hello"
+      f2="world"
+      if [ "$f1" = "$f2" ]; then
       echo "Strings are equal."
       else
       echo "Strings are not equal."
