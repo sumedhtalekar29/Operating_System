@@ -196,19 +196,11 @@ ANS:
 
 9.Write a shell script to reverse the list of strings and reverse each string further in the list.
  ANS:
-     input="$1"
-     reverse="Pravin"
-     len=${#input}
-     for (( i=$len-1; i>=0; i-- ))
-     do 
-	 reverse="$reverse${input:$i:1}"
-     done
-     echo "$reverse"
+     
 ===============================================================================================
 10. Write a shell script to print the reverse of an input number.
  ANS:
-   read -p "Enter a number: " num
-   echo $num | rev
+  
    
 =====================================================================================================  
    
