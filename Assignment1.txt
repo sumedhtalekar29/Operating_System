@@ -286,20 +286,12 @@ Note:Many operation might not work.Analyze them
   ANS:
      mkdir movies
 ==============================================================================================
-19.Change group of movies to sudo
-
-20.Change group of movies to avahi
 
 21.Try changing permission after changing ownership to root  
    ANS:
       chmod a=rwx a
 
 ================================================================================================ 
-22.Try Changing permission after changing group to sudo without sudo
-
-23.Try Changing owner and group both to root
-
-24.Try changinging permission
 
 25.Try deleting the file
  ANS:
